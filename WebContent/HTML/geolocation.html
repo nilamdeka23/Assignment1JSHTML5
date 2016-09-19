@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HTML5 Geolocation</title>
+</head>
+<body style="text-align: center">
+	<h2 style="background: blue; color: white">Google Street View of
+		your Street</h2>
+	<p style="color: blue">
+		<strong><span style="text-decoration: underline">Note:</span>
+			This view work's only if you share your current location on your
+			browser!</strong>
+	</p>
+	<br />
+	<div id="my_street_view"
+		style="width: 600px; height: 400px; margin: 0 auto"></div>
+
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAucvsJbDRpxr5cjySDR-8mwr0tBvF0TRg&callback=initMap"
+		async defer></script>
+		
+	<script type="text/javascript" src="../JS/geolocation.js"></script>
+</body>
+</html>

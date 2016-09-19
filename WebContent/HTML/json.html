@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSON</title>
+
+</head>
+<body style="text-align: center"
+	background="https://upload.wikimedia.org/wikipedia/commons/7/77/Rafting_em_Brotas.jpg">
+	<div
+		style="background: rgba(255, 255, 255, 0.5); padding: 20px; width: 500px; margin: 0px auto">
+		<h2 style="color: green">Register for outdoor expeditions for
+			fall 2016</h2>
+		<table height="300px" width="300px" align="center">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" id="name" /></td>
+			</tr>
+			<tr>
+				<td>Phone no.</td>
+				<td><input type="text" id="phone" /></td>
+			</tr>
+			<tr>
+				<td>Email id</td>
+				<td><input type="text" id="email" /></td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td><input type="text" id="age" /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="text" id="gender" /></td>
+			</tr>
+		</table>
+		<input type="button" value="Submit" onClick="submit()">
+		<p>Last Date to register is 18th September 2016.</p>
+		<h2 style="color: red">Hurry!</h2>
+	</div>
+	<script src="../JS/json.js"></script>
+	<script src="http://reqres.in/api/users?page=2"></script>
+</body>
+</html>

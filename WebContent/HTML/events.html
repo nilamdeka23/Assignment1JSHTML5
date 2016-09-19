@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+td {
+	border: 3px solid green;
+}
+
+h4 {
+	position: absolute;
+	color: white;
+}
+
+img {
+	width: 200px;
+	height: auto;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>JS Event</title>
+</head>
+<body style="text-align: center">
+	<h3 style="background: orange; color: white">Let us play this
+		game!</h3>
+	<h3>Click to find out if this habit is good or bad for you</h3>
+
+	<table style="margin: 0px auto">
+		<tbody>
+
+			<tr>
+				<td><h4>Drinking Alcohol</h4> <img alt="alcohol image"
+					src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Alcoholic_beverages.jpg"
+					class="bad" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4>Eating green vegetables</h4> <img
+					alt="green vegetable image"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/VegetablesSupermarket5.jpg/1024px-VegetablesSupermarket5.jpg"
+					class="good" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4 style="color: black">Playing sports</h4> <img
+					alt="sports image"
+					src="https://upload.wikimedia.org/wikipedia/commons/9/92/Youth-soccer-indiana.jpg"
+					class="good" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+			</tr>
+
+
+			<tr>
+				<td><h4>Smoking</h4> <img alt="smoking image"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Smoking_in_black_and_white.jpg/1024px-Smoking_in_black_and_white.jpg"
+					class="bad" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4>Exercise</h4> <img alt="excercise image"
+					src="http://res.freestockphotos.biz/pictures/15/15250-a-young-woman-stretching-outdoors-before-exercising-pv.jpg"
+					class="good" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4>Drug addiction</h4> <img alt="drug abuse image"
+					src="https://upload.wikimedia.org/wikipedia/commons/0/0c/DrugOverdose.jpg"
+					class="bad" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+			</tr>
+
+
+			<tr>
+				<td><h4>Studying</h4> <img alt="study image"
+					src="https://c1.staticflickr.com/9/8754/16840395246_a2841b0f4e_b.jpg"
+					class="good" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4 style="color: black">Bullying</h4> <img
+					alt="bullying image"
+					src="https://upload.wikimedia.org/wikipedia/commons/4/47/Wikibully.jpg"
+					class="bad" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+				<td><h4>Art</h4> <img alt="art image"
+					src="https://upload.wikimedia.org/wikipedia/commons/d/d7/CineMoco_Motor_Control_Camera_Dolly.jpg"
+					class="good" onclick="handle_event(event)"
+					onmouseover="handle_mouseover(event)"
+					onmouseout="handle_mouseout(event)" /></td>
+			</tr>
+
+
+		</tbody>
+
+	</table>
+	<script type="text/javascript" src="../JS/events.js"></script>
+</body>
+</html>

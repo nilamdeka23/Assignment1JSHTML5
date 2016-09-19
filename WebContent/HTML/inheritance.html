@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JS Inheritance</title>
+</head>
+<body style="text-align: center">
+	<h3 style="background: red; color: white">Welcome to Sparta Cafe
+		Billing System</h3>
+
+	<table align="center">
+		<tbody>
+			<tr>
+				<td colspan="2" style="text-align: center"><h2>Spot
+						Billing Calculator</h2></td>
+			</tr>
+			<tr>
+				<td>Capuccino($7)</td>
+				<td><input type="button" value="+"
+					onclick="incrementCount('capuccino_count')" /> <input type="text"
+					value="0" style='width: 30px; text-align: right'
+					id='capuccino_count' /> <input type="button" value="-"
+					onclick="decrementCount('capuccino_count')" /></td>
+			</tr>
+			<tr>
+				<td>Mocaccino($5)</td>
+				<td><input type="button" value="+"
+					onclick="incrementCount('mocaccino_count')" /> <input type="text"
+					value="0" style='width: 30px; text-align: right'
+					id='mocaccino_count' /> <input type="button" value="-"
+					onclick="decrementCount('mocaccino_count')" /></td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Total Bill($)</h3>
+				</td>
+				<td><input id="total" type='text'
+					style="text-align: right; font-size: 16px; width: 40px"
+					value='0.00' /></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script type="text/javascript" src="../JS/inheritance.js"></script>
+</body>
+</html>
+

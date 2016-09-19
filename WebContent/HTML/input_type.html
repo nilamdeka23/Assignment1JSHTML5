@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HTML5 Input Type</title>
+</head>
+<body style="text-align: center">
+	<h3 style="background: green; color: white">Please fill up this
+		form to register with Pioneer Healthcare Services</h3>
+	<h3>Enter your details below</h3>
+	<form action="input_type_onsubmit.html">
+		<table style="margin: 0px auto">
+			<tbody>
+				<tr>
+					<td><h3>Name &nbsp;</h3></td>
+					<td style="padding-right: 60px"><input type="text" id="name"
+						required /></td>
+
+					<td><h3>Age &nbsp;</h3></td>
+					<td><input type="number" id="age" required /></td>
+				</tr>
+				<tr>
+					<td><h3>Email &nbsp;</h3></td>
+					<td style="padding-right: 60px"><input type="email" id="email" /></td>
+
+					<td><h3>Phone &nbsp;</h3></td>
+					<td><input type="text" id="phone"
+						pattern="^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$" required /></td>
+				</tr>
+				<tr>
+					<td><h3>Occupation &nbsp;</h3></td>
+					<td style="padding-right: 60px"><input type="text"
+						id="occupation" /></td>
+
+					<td><h3>Address &nbsp;</h3></td>
+					<td><input type="text" id="address" /></td>
+				</tr>
+				<tr>
+					<td><h3>Insurance details &nbsp;</h3></td>
+					<td style="padding-right: 60px"><input type="text"
+						id="insurance" required /></td>
+
+					<td><h3>Gender &nbsp;</h3></td>
+					<td><input type="text" id="gender" required /></td>
+				</tr>
+				<tr>
+					<td colspan="4"><input type="submit" value="Submit" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

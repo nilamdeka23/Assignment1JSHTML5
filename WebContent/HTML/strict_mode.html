@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JS Strict mode</title>
+</head>
+<body style="text-align: center">
+	<h3 style="background: brown; color: white">
+		This is a demonstration for the use of <strong>strict mode</strong> in
+		JavaScript
+	</h3>
+	<p>Here we have two inputs, where the user enters a number to
+		calculate it's square root.</p>
+	<p>Both the methods use undeclared variables. One uses strict mode
+		while the other doesn't.</p>
+	<p>The one under strict mode throws an error while the other
+		doesn't, thereby explaining the use/purpose of strict mode in
+		JavaScript</p>
+	<h3>Please enter any numbers below and use either methods for a
+		live example</h3>
+
+	<table style="margin: 0px auto">
+		<tbody>
+
+			<tr>
+				<td>
+					<h3 style="color: blue">
+						This <strong>doesn't</strong> use strict mode
+					</h3> <input type="text" id="text2" placeholder="enter a number" /><br />
+					<input value="Calculate square root" type="button"
+					onclick="no_strict()" />
+					<h3 style="color: blue" id="not_strict"></h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3 style="color: green">
+						This <em>uses</em> strict mode
+					</h3> <input type="text" id="text1" placeholder="enter a number" /><br />
+					<input value="Calculate square root" type="button"
+					onclick="use_strict()" />
+					<h3 style="color: green" id="using_strict"></h3>
+				</td>
+			</tr>
+		</tbody>
+
+	</table>
+	<script type="text/javascript" src="../JS/strict_mode.js"></script>
+</body>
+</html>
